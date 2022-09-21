@@ -9,11 +9,11 @@ if(cold){
   console.log("Make sure you pick out a scarf");
 }
 
-console.log("Now you're ready to go outside.");*/
+console.log("Now you're ready to go outside.");
 
 const temperature = 31;
 
-/*if(temperature < 0){
+if(temperature < 0){
   console.log("Make sure you pick out a scarf!");
 }else if (temperature < 15){
   console.log("Short sleeves won't cut it");
@@ -21,7 +21,7 @@ const temperature = 31;
   console.log("Short sleeves are fine.")
 }
 
-console.log("Now you're ready to go outside")*/
+console.log("Now you're ready to go outside")
 
 if (temperature > -40 || temperature > 40){
   console.log("Maybe going outside isn't a good idea....")
@@ -38,4 +38,14 @@ let raining = true
 if(!raining){
   console.log("Leave your umbrella at home!");
 }
+*/
 
+let age = 14;
+
+if(age < 13){
+  console.log("Elementary School")
+}else if (age >= 13 && age <= 18 ){
+  console.log("Secondary School")
+}else{
+  console.log("Lighthouse Labs")
+}
